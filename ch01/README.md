@@ -1,5 +1,18 @@
 # Chapter 01: Clojure noob
 
+## REPL
+
+```shell
+clj
+```
+
+Then on REPL
+
+```clojure
+(ns clojure_noob.core)
+(-main)
+```
+
 ## Build `uberjar`
 
 ```shell
