@@ -7,8 +7,7 @@
 
 (defn mapset
   [x list]
-  (set (map x list))
-  )
+  (set (map x list)))
 
 (defn -main
   []
@@ -18,5 +17,4 @@
   (println "dec9" (dec9 10))
 
   ; Map over set
-  (println "mapset" (mapset inc [1 1 2 2]))
-  )
+  (println "mapset" (mapset inc [1 1 2 2])))
